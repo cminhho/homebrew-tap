@@ -2,23 +2,22 @@
 
 Homebrew tap for [cminhho](https://github.com/cminhho) formulae.
 
-## Tap
+## Install
 
 ```bash
-brew tap cminhho/tap https://github.com/cminhho/homebrew-tap
+brew install cminhho/tap/cbash-cli
 ```
+
+(Tap is added automatically.) Restart terminal, then run `cbash` for help.
 
 ## Formulae
 
 | Formula      | Description |
 |-------------|-------------|
-| **cbash-cli** | Command-line tools for developers (Git, Docker, AWS, K8s, etc.). [cbash](https://github.com/cminhho/cbash) |
+| **cbash-cli** | CLI for dev workflow (Git, Docker, AWS, K8s, etc.). [cbash](https://github.com/cminhho/cbash) |
 
-### Install cbash-cli
+## cbash-cli
 
-```bash
-brew tap cminhho/tap https://github.com/cminhho/homebrew-tap
-brew install cbash-cli
-```
-
-After install, restart your terminal and run `cbash` for help.
+- **Upgrade:** `brew upgrade cminhho/tap/cbash-cli`
+- **Uninstall:** `brew uninstall cminhho/tap/cbash-cli`
+- **Docs:** [github.com/cminhho/cbash](https://github.com/cminhho/cbash)
