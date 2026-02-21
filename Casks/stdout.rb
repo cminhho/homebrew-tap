@@ -11,4 +11,9 @@ cask "stdout" do
   homepage "https://github.com/cminhho/stdout"
 
   app "stdout.app"
+
+  # App is not signed; remove quarantine so macOS allows opening without "Right-click → Open"
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/stdout.app"], sudo: false
+  end
 end
