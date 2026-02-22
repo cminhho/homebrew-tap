@@ -21,7 +21,7 @@ Then install any package from the [Available packages](#available-packages) sect
 
 | Package     | Type    | Description |
 |------------|---------|-------------|
-| **cbash-cli** | Formula | Dev workflow CLI (Git, Docker, AWS, K8s). |
+| **cbash-cli** | Formula | A composable CLI toolkit for Bash automation. |
 | **stdout**    | Cask    | Format, transform, and generate data locally; no server. Intel & Apple Silicon. |
 
 ---

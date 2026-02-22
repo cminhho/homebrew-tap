@@ -4,8 +4,8 @@
 class CbashCli < Formula
   desc "Command-line tools for developers (macOS/Linux)"
   homepage "https://github.com/cminhho/cbash"
-  url "https://github.com/cminhho/cbash/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "a4ae1b79853fb63916aa4494fcb04ccf7e75d58384c298dac9695674ac6c31a4"
+  url "https://github.com/cminhho/cbash/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "dfb73782da6fc51631373ecb9a038a16938f9095357800187228c7a7c67c6f08"
   license "MIT"
   head "https://github.com/cminhho/cbash.git", branch: "master"
 
