@@ -49,3 +49,14 @@ Standard output for everyday dev tasks — format, transform, and generate data 
 | Uninstall | `brew uninstall --cask cminhho/tap/stdout` |
 
 **Upstream:** [github.com/cminhho/stdout](https://github.com/cminhho/stdout)
+
+## Maintainers
+
+To bump **stdout** (Cask) and **cbash-cli** (Formula) to the latest GitHub releases and commit:
+
+```bash
+# From repo root; needs curl, jq, shasum (macOS)
+./scripts/update-casks-and-formulae.sh
+# Preview only (no commit):
+./scripts/update-casks-and-formulae.sh --no-commit
+```
