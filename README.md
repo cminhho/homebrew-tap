@@ -59,4 +59,6 @@ To bump **stdout** (Cask) and **cbash-cli** (Formula) to the latest GitHub relea
 ./scripts/update-casks-and-formulae.sh
 # Preview only (no commit):
 ./scripts/update-casks-and-formulae.sh --no-commit
+# Re-fetch sha256 even when version already matches:
+./scripts/update-casks-and-formulae.sh --force [--no-commit]
 ```
