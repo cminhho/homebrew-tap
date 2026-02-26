@@ -2,14 +2,14 @@
 # On new release of stdout: update version + sha256 (curl -sL <url> | shasum -a 256)
 
 cask "stdout" do
-  version "1.1.6"
+  version "1.1.7"
 
   on_intel do
-    sha256 "8752947c99ec81316419d9a43dbf6439e21db28491dbdecc29c5f06c158f0a1f"
+    sha256 "c21a154993c262541ced90c341b34dadc25a33f60b80fb88559ddde03a169032"
     url "https://github.com/cminhho/stdout/releases/download/v#{version}/stdout-#{version}-mac.zip"
   end
   on_arm do
-    sha256 "08d26ec5763601fefd43c7b64623aa7a29f8c508eba26f3bfd87995f6eec58c7"
+    sha256 "08b5fab149c9ce15aa048a6b6d4c8ab5bc0528973705306f65e48c682ad6ec43"
     url "https://github.com/cminhho/stdout/releases/download/v#{version}/stdout-#{version}-arm64-mac.zip"
   end
 
